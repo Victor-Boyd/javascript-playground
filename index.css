@@ -1,0 +1,12 @@
+.main-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.color-button {
+    width: 200px;
+    height: 150px;
+    font-size: x-large;
+}
