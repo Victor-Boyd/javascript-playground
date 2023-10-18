@@ -16,7 +16,7 @@ const layout4 = [navbar[1], body[0], modules[0], outlines[0], navbarText[1], mod
 
 const layouts = [layout1, layout2, layout3, layout4]
 
-const button = document.getElementById("button")
+const button = document.getElementById("layout-button")
 const moduleColor = document.querySelectorAll(".mini-module")
 const outlineColor = document.getElementById("color-change-module")
 const navbarColor = document.querySelector(".navbar")
