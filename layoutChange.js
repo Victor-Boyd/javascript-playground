@@ -1,8 +1,8 @@
 
 
-const navbar = ["#000000", "#ffebcd", "#f5f5dc"]
+const navbar = ["#000000", "#ffebcd", "#f5f5dc", "#3D1C02"]
 const body = ["#111111", "#ffffff", "#f5f5dc", "#ffebcd"]
-const modules = ["#ffffff", "#f5f5dc", "#ffebcd"]
+const modules = ["#ffffff", "#f5f5dc", "#ffebcd", "#000000"]
 const outlines = ["#ffffff", "#000000"]
 const navbarText = ["#ffffff", "#000000"]
 const moduleTitle = ["#ffffff", "#000000"]
@@ -12,7 +12,7 @@ const text = ["#ffffff", "#000000"]
 const layout1 = [navbar[0], body[1], modules[0], outlines[1], navbarText[0], moduleTitle[0], moduleTitleOutline[1], text[1]]
 const layout2 = [navbar[1], body[2], modules[0], outlines[1], navbarText[1], moduleTitle[1], moduleTitleOutline[1], text[1]]
 const layout3 = [navbar[0], body[3], modules[1], outlines[1], navbarText[0], moduleTitle[0], moduleTitleOutline[1], text[1]]
-const layout4 = [navbar[1], body[0], modules[0], outlines[0], navbarText[1], moduleTitle[1], moduleTitleOutline[0], text[1]]
+const layout4 = [navbar[3], body[0], modules[3], outlines[0], navbarText[0], moduleTitle[0], moduleTitleOutline[0], text[0]]
 
 const layouts = [layout1, layout2, layout3, layout4]
 

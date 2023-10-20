@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="51" height="50" viewBox="0 0 51 50">
+  <g id="paper" transform="translate(-160 -278.585)">
+    <g id="Rectangle_4" data-name="Rectangle 4" transform="translate(160 285)" fill="#fff" stroke="#000" stroke-width="10">
+      <rect width="48" height="43.585" rx="10" stroke="none"/>
+      <rect x="5" y="5" width="38" height="33.585" rx="5" fill="none"/>
+    </g>
+    <g id="Rectangle_5" data-name="Rectangle 5" transform="translate(186 285)" fill="#fff" stroke="#707070" stroke-width="7">
+      <rect width="25" height="43.585" rx="10" stroke="none"/>
+      <rect x="3.5" y="3.5" width="18" height="36.585" rx="6.5" fill="none"/>
+    </g>
+    <g id="Rectangle_6" data-name="Rectangle 6" transform="matrix(0.985, -0.174, 0.174, 0.985, 160, 285.704)" fill="#fff" stroke="#111" stroke-width="6">
+      <rect width="41" height="19" rx="9" stroke="none"/>
+      <rect x="3" y="3" width="35" height="13" rx="6" fill="none"/>
+    </g>
+  </g>
+</svg>

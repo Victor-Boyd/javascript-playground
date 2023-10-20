@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="65" height="51.426" viewBox="0 0 65 51.426">
+  <g id="scissors" transform="translate(-153.386 -334.8)">
+    <g id="Rectangle_8" data-name="Rectangle 8" transform="translate(157.838 339)" fill="#fff" stroke="#000" stroke-width="10">
+      <rect width="39" height="47.226" rx="10" stroke="none"/>
+      <rect x="5" y="5" width="29" height="37.226" rx="5" fill="none"/>
+    </g>
+    <g id="Rectangle_9" data-name="Rectangle 9" transform="translate(176.461 361)" fill="#fff" stroke="#707070" stroke-width="5">
+      <rect width="30" height="25" rx="10" stroke="none"/>
+      <rect x="2.5" y="2.5" width="25" height="20" rx="7.5" fill="none"/>
+    </g>
+    <g id="Rectangle_10" data-name="Rectangle 10" transform="translate(187.687 345.943) rotate(30)" fill="#fff" stroke="#707070" stroke-width="5">
+      <rect width="35.449" height="14.934" rx="7.467" stroke="none"/>
+      <rect x="2.5" y="2.5" width="30.449" height="9.934" rx="4.967" fill="none"/>
+    </g>
+    <g id="Rectangle_11" data-name="Rectangle 11" transform="matrix(0.985, -0.174, 0.174, 0.985, 181.06, 340.775)" fill="#fff" stroke="#707070" stroke-width="5">
+      <rect width="34.409" height="14.972" rx="7.486" stroke="none"/>
+      <rect x="2.5" y="2.5" width="29.409" height="9.972" rx="4.986" fill="none"/>
+    </g>
+    <g id="Rectangle_7" data-name="Rectangle 7" transform="translate(166.821 334.8) rotate(45)" fill="#fff" stroke="#111" stroke-width="6">
+      <rect width="41" height="19" rx="9" stroke="none"/>
+      <rect x="3" y="3" width="35" height="13" rx="6" fill="none"/>
+    </g>
+  </g>
+</svg>

@@ -8,6 +8,7 @@
             <div class="title">javascript playground</div>
         </nav>
         <!-- modules for individual functions -->
+        <!-- color change module -->
         <div id="color-change-module" class="mini-module">
             <div class="mini-module-title">
                 <h1 class="h1">Layout Changer</h1>
@@ -19,6 +20,9 @@
                 </button>
             </div>
         </div>
+
+        <!-- counter module -->
+
         <div class="mini-module">
             <div class="mini-module-title">
                 <h1>Counter</h1>
@@ -35,12 +39,36 @@
                 </div>
             </div>
         </div>
+
+        <!-- rock paper scissors module -->
+
+        <div class="mini-module">
+            <div class="mini-module-title">
+                <h1>rock paper scissors</h1>
+            </div>
+            <div class="game-container">
+                <div id="streak-tracker" class="streak-tracker">
+                    streak: 
+                </div>
+                <div class="gameplay-container">
+                    <img id="player" class="graphic" src="./assets/rock.svg" />
+                    <div id="win-or-lose" ><h1>Vs.</h1></div>
+                    <img id="computer" class="graphic" src="./assets/scissors.svg" />
+                </div>
+                <div class="game-buttons-container">
+                    <button id="rock" class="game-button">rock</button>
+                    <button id="paper" class="game-button">paper</button>
+                    <button id="scissors" class="game-button">scissors</button>
+                </div>
+            </div>
+        </div>
     </div>
 
 <!-- all javascript goes here -->
 
 <script type="text/javascript" src="layoutChange.js"></script> 
 <script type="text/javascript" src="counter.js"></script>
+<script type="text/javascript" src="rockPaperScissors.js"></script>
 
 </body>
 
