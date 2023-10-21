@@ -50,7 +50,6 @@ body {
 .mini-module-title {
     text-align: center;
     border-bottom: 10px solid;
-    margin-bottom: 5px;
 }
 
 .color-button {
@@ -82,6 +81,22 @@ body {
     height: 100px;
     margin-inline: 30px;
     font-size: xx-large;
+}
+
+.timer-container {
+    width: 100%;
+    height: 150px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+}
+
+.time-container {
+    width: 20%;
+    height: 100%;
+    font-size: 6rem;
+    text-align: center;
+    background-color: red;
 }
 
 .streak-tracker {
