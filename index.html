@@ -48,18 +48,18 @@
             </div>
             <div class="countdown">
                 <div class="timer-container">
-                    <div id="hours" class="time-container">
-                        00
-                    </div>
-                    <div id="minutes" class="time-container">
+                    <input id="hours" placeholder="00 :" type="number" class="time-container">
+                        
+                    </input>
+                    <input id="minutes" placeholder='00 :' type="number" max="60" class="time-container">
 
-                    </div>
-                    <div id="seconds" class="time-container">
-
-                    </div>
+                    </input>
+                    <input id="seconds" placeholder="00" type="number" max="60" class="time-container">
+                        
+                    </input>
                 </div>
-                <div class="input-constainer">
-
+                <div class="star-btn-container">
+                    <button id="start-button" class="start-button">start</button>
                 </div>
             </div>
         </div>
@@ -92,6 +92,7 @@
 
 <script type="text/javascript" src="layoutChange.js"></script> 
 <script type="text/javascript" src="counter.js"></script>
+<script type="text/javascript" src="countdown.js"></script>
 <script type="text/javascript" src="rockPaperScissors.js"></script>
 
 </body>

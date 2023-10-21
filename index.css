@@ -92,9 +92,12 @@ body {
 }
 
 .time-container {
-    width: 20%;
+    width: fit-content;
+    max-width: 15%;
     height: 100%;
-    font-size: 6rem;
+    border: 0;
+    padding: 0;
+    font-size: clamp(2rem, 5vw, 6rem);
     text-align: center;
     background-color: red;
 }
