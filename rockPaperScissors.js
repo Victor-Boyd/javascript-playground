@@ -28,7 +28,6 @@ rockButton.addEventListener('click', function() {
     player.src = rock
     const randomNumber = Math.floor(Math.random() * 3)
     const computerChoice = computerMoves[randomNumber]
-    console.log(computerChoice)
     switch (computerChoice) {
         case rock:
             computer.src = rock
