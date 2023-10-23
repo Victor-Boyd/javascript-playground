@@ -11,7 +11,7 @@ const secondsMeasureId = document.getElementById('second-time-measure');
 const start = document.getElementById('start-button');
 const reset = document.getElementById('reset-button');
 
-let countDownInterval
+let countDownInterval 
 
 start.addEventListener('click', function() {
     let hours = hoursId.value
@@ -25,10 +25,15 @@ start.addEventListener('click', function() {
     countDownInterval = setInterval(countDown, 1000)
 
 
+
+
     function countDown(){
     if (seconds > 0 ) {
         seconds -= 1
         secondsId.value = seconds
+        hoursId.disabled = true
+        minutesId.disabled = true
+        secondsId.disabled = true
     }
     else if (seconds == 0 && minutes > 0) {
         minutes -= 1
@@ -49,12 +54,11 @@ start.addEventListener('click', function() {
         clearInterval(countDownInterval)
     }
 
-
-    if (hours == 1) {
-        hoursMeasure = "hour"
+    if (countDownInterval === false) {
+        hoursId.disabled = false
     }
     else {
-        hoursMeasure = "hours"
+        hoursId.disabled = true
     }
 
     if (minutes == 1) {
