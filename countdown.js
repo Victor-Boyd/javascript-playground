@@ -4,6 +4,10 @@ const hoursId = document.getElementById('hours');
 const minutesId = document.getElementById('minutes');
 const secondsId = document.getElementById('seconds');
 
+const hoursMeasureId = document.getElementById('hour-time-measure');
+const minutesMeasureId = document.getElementById('minute-time-measure');
+const secondsMeasureId = document.getElementById('second-time-measure');
+
 const start = document.getElementById('start-button');
 
 start.addEventListener('click', function() {
@@ -11,7 +15,12 @@ start.addEventListener('click', function() {
     let minutes = minutesId.value
     let seconds = secondsId.value
 
+    let hoursMeasure = hoursMeasureId.innerText
+    let minutesMeasure = minutesMeasureId.innerText
+    let secondsMeasure = secondsMeasureId.innerText
+
     let countDownInterval = setInterval(countDown, 1000)
+
 
     function countDown(){
     if (seconds > 0 ) {
@@ -36,6 +45,31 @@ start.addEventListener('click', function() {
     else {
         clearInterval(countDownInterval)
     }
+
+
+    if (hours == 1) {
+        hoursMeasure = "hour"
+    }
+    else {
+        hoursMeasure = "hours"
+    }
+
+    if (minutes == 1) {
+        minutesMeasure = "minute"
+    }
+    else {
+        minutesMeasure = "minutes"
+    }
+
+    if (seconds == 1) {
+        secondsMeasure = "second"
+    }
+    else {
+        secondsMeasure = "seconds"
+    }
+    hoursMeasureId.innerText = hoursMeasure
+    minutesMeasureId.innerText = minutesMeasure
+    secondsMeasureId.innerText = secondsMeasure
 }
 })
 

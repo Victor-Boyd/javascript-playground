@@ -48,18 +48,28 @@
             </div>
             <div class="countdown">
                 <div class="timer-container">
-                    <input id="hours" placeholder="00 :" type="number" class="time-container">
+                    <input id="hours" placeholder="0" type="number" class="time-container">
                         
                     </input>
-                    <input id="minutes" placeholder='00 :' type="number" max="60" class="time-container">
+                    <div id="hour-time-measure" class="time-measure">
+                        hours
+                    </div>
+                    <input id="minutes" placeholder='0' type="number" max="60" class="time-container">
 
                     </input>
-                    <input id="seconds" placeholder="00" type="number" max="60" class="time-container">
+                    <div id="minute-time-measure" class="time-measure">
+                        minutes
+                    </div>
+                    <input id="seconds" placeholder="0" type="number" max="60" class="time-container">
                         
                     </input>
+                    <div id="second-time-measure" class="time-measure">
+                        seconds
+                    </div>
                 </div>
-                <div class="star-btn-container">
-                    <button id="start-button" class="start-button">start</button>
+                <div class="timer-button-container">
+                    <button id="start-button" class="timer-button">start</button>
+                    <button id="reset-button" class="timer-button">reset</button>
                 </div>
             </div>
         </div>

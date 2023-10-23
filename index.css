@@ -83,23 +83,57 @@ body {
     font-size: xx-large;
 }
 
+.countdown {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .timer-container {
     width: 100%;
     height: 150px;
     background-color: blue;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .time-container {
     width: fit-content;
-    max-width: 15%;
-    height: 100%;
+    max-width: 10%;
+    height: fit-content;
     border: 0;
-    padding: 0;
-    font-size: clamp(2rem, 5vw, 6rem);
+    padding: 0 0 0 15px;
+    color:black;
+    font-size: clamp(1rem, 4vw, 6rem);
+    display: flex;
+    justify-content: center;
     text-align: center;
     background-color: red;
+}
+
+.time-measure {
+    width: fit-content;
+    max-width: 30%;
+    height: fit-content;
+    font-size: clamp(1rem, 4vw, 6rem);
+    text-align: center;
+    background-color: green;
+}
+
+.timer-button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.timer-button {
+    width: 100%;
+    height: 50%;
 }
 
 .streak-tracker {
