@@ -9,6 +9,9 @@ const minutesMeasureId = document.getElementById('minute-time-measure');
 const secondsMeasureId = document.getElementById('second-time-measure');
 
 const start = document.getElementById('start-button');
+const reset = document.getElementById('reset-button');
+
+let countDownInterval
 
 start.addEventListener('click', function() {
     let hours = hoursId.value
@@ -19,7 +22,7 @@ start.addEventListener('click', function() {
     let minutesMeasure = minutesMeasureId.innerText
     let secondsMeasure = secondsMeasureId.innerText
 
-    let countDownInterval = setInterval(countDown, 1000)
+    countDownInterval = setInterval(countDown, 1000)
 
 
     function countDown(){
@@ -73,5 +76,16 @@ start.addEventListener('click', function() {
 }
 })
 
+reset.addEventListener('click', function() {
+    hoursId.value = 0
+    minutesId.value = 0
+    secondsId.value = 0
 
+    clearInterval(countDownInterval)
+
+    hoursMeasureId.innerText = "hours"
+    minutesMeasureId.innerText = "minutes"
+    secondsMeasureId.innerText = "seconds"
+
+})
 
