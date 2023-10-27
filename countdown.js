@@ -74,6 +74,12 @@ start.addEventListener('click', function() {
     else {
         secondsMeasure = "seconds"
     }
+    if (hours == 1) {
+        hoursMeasure = "hour"
+    }
+    else {
+        hoursMeasure = "hours"
+    }
     hoursMeasureId.innerText = hoursMeasure
     minutesMeasureId.innerText = minutesMeasure
     secondsMeasureId.innerText = secondsMeasure
